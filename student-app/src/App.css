@@ -16,7 +16,36 @@
     outline-offset: 2px;
   }
 }
+/* Navigation style  */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1d1d;
+  overflow: hidden;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 200px;
+}
 
+/* main screen styles */
+.description {
+  font-size: 18px;
+  color: var(--text);
+  text-decoration: underline;
+  margin: 0 auto;
+}
+
+.Subject-Box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
 .hero {
   position: relative;
 
